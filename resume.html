@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aameena Mehek - Resume</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background: #070b16;
+        }
+
+        .topbar {
+            height: 60px;
+            background: #070b16;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .topbar h2 {
+            color: #4cc9f0;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        .back {
+            background: #4cc9f0;
+            color: #000;
+            text-decoration: none;
+            padding: 9px 18px;
+            border-radius: 30px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .pdf {
+            width: 100%;
+            height: calc(100vh - 60px);
+        }
+
+        .pdf iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+
+            .topbar {
+                height: 60px;
+                padding: 0 15px;
+            }
+
+            .topbar h2 {
+                font-size: 18px;
+            }
+
+            .back {
+                padding: 8px 15px;
+                font-size: 14px;
+            }
+
+            .pdf {
+                height: calc(100vh - 60px);
+            }
+
+            .pdf iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="topbar">
+
+        <h2>My Resume</h2>
+
+        <a href="index.html" class="back">
+            ← Back
+        </a>
+
+    </div>
+
+    <div class="pdf">
+
+        <iframe src="Aameena_Mehek_Resume.pdf"></iframe>
+
+    </div>
+
+</body>
+
+</html>
